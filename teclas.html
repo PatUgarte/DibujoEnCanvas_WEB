@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dibujando con flechas</title>
+	</head>
+	<body>
+		<!-- CHEQUEAR ESTAS INPUTS, COMO FUNCIONAN, QUÉ ATRIBUTOS SE LES PUEDE PONER Y CÓMO SUSTRAERLES INFORMACIÓN ÚTIL-->
+		COLOR: <input type="color" id="elegir_color"/>
+		GROSOR: <input type="range" id="elegir_grosor" min="1" max="10" step="1" />
+		<input type="reset" value="Reiniciar" id="elegir_grosor"/>
+		<br/><canvas id="canvas" width="600" height="600"></canvas>
+		<p>Movete con las flechas del teclado para dibujar.</p>
+		<script type="text/javascript" src="teclas.js"></script>
+	</body>
+</html>
